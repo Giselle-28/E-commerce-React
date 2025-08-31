@@ -9,6 +9,7 @@ import Cart from './pages/Cart'
 
 
 function App() {
+  {/* variables que simulan login*/}
   const [isLogin,setIsLogin] = useState(false);
   const [isAdmin,setIsAdmin] = useState(false);
   const cartItem = 3;
